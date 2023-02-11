@@ -252,7 +252,8 @@ header {
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 50px 20px;
+    margin: 100px;
 }
 
 .menu-grid-cover {
@@ -275,12 +276,21 @@ header {
     background-color: #FBB731;
     padding: 10px 30px 10px 52px;
     border-radius: 5px;
-    appearance: none;
-    flex-basis: 152px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 9px;
+
+}
+
+.menu-grid-icon {
     background-image: url(../images/bin.svg);
-    background-size: 18px 13px;
+    background-size: 18px 18px;
     background-repeat: no-repeat;
-    background-position: left;
+    display: block;
+    width: 18px;
+    height: 18px;
 }
 
 .menu-grid-title {
@@ -298,8 +308,6 @@ header {
     color: #979797;
 }
 
-.menu-grid-icon {}
-
 .menu-grid-text {
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -310,3 +318,10 @@ header {
     text-transform: uppercase;
     color: #1E2F40;
 }
+
+appearance: none;
+flex-basis: 152px;
+background-image: url(../images/bin.svg);
+background-size: 18px 13px;
+background-repeat: no-repeat;
+background-position: left;
