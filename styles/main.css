@@ -173,7 +173,7 @@ header {
     background-position: center center;
     background-position: center 0;
     padding: 100px 100px 120px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .banner-title {
@@ -227,6 +227,7 @@ header {
     border-radius: 5px;
     display: inline-block;
     border: 1px solid #fbb731;
+    transition: 0.2s;
 }
 
 .banner-link:hover {
@@ -237,6 +238,10 @@ header {
 .menu-grid-item:hover {
     background-color: #F37335;
     cursor: pointer;
+}
+
+.menu {
+    padding-top: 20px;
 }
 
 .menu-header {
@@ -407,6 +412,28 @@ header {
 .footer-list {
     padding-left: 0px;
     list-style-type: none;
+}
+
+.button-up {
+    background-color: #FBB731;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1E2F40;
+    text-decoration: none;
+    padding: 5px 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: 1s;
+}
+
+.button-up.hidden {
+    opacity: 0;
+}
+
+.button-up.visible {
+    opacity: 1;
 }
 
 /* Style INDEX*/
