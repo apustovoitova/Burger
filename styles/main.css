@@ -581,6 +581,11 @@ header {
 }
 
 /*Responsive*/
+@media (min-width: 1001px) {
+    .footer-list+.footer-list-tel {
+        display: none;
+    }
+}
 
 @media (max-width:1000px) {
     .container {
@@ -614,5 +619,36 @@ header {
     .menu-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px 15px;
+    }
+
+    .menu .container {
+        overflow: hidden;
+    }
+
+    .menu-other {
+        display: flex;
+        width: auto;
+        height: 424px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding-bottom: 50px;
+
+    }
+
+    .menu-other .menu-grid-item {
+        flex: 0 0 281px;
+    }
+
+    .menu-other .menu-grid-cover,
+    .menu-other .menu-grid-cover img {
+        height: 320px;
+    }
+
+    .footer-tel {
+        display: none;
+    }
+
+    .footer-list+.footer-list-tel {
+        display: block;
     }
 }
