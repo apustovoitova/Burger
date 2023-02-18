@@ -171,7 +171,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-position: center 0;
+    background-position: 0 center;
     padding: 100px 100px 120px;
     margin-bottom: 80px;
 }
@@ -581,6 +581,7 @@ header {
 }
 
 /*Responsive*/
+
 @media (max-width:1000px) {
     .container {
         max-width: 738px;
@@ -605,8 +606,9 @@ header {
     }
 
     .banner-box {
-        padding: 100px 40px 120px;
         background-position: -80px center;
+        padding: 100px 40px 120px;
+
     }
 
     .menu-grid {
