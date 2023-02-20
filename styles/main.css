@@ -108,7 +108,7 @@ header {
 .bg {
     text-align: center;
     color: #FFFFFF;
-    background-image: url(../images/Group\3.svg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: center 0;
     padding: 142px 0;
@@ -167,7 +167,7 @@ header {
 }
 
 .banner-box {
-    background-image: url(../images/Group\ 8.svg);
+    background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -698,7 +698,7 @@ header {
 .burger-close {
     width: 22px;
     height: 22px;
-    background-image: url(../images/close\ 1.svg);
+    background-image: url(../images/close1.svg);
     background-color: transparent;
     background-size: contain;
     border: none;
