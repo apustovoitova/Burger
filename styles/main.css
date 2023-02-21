@@ -235,10 +235,7 @@ header {
     color: #fbb731;
 }
 
-.menu-grid-item:hover {
-    background-color: #F37335;
-    cursor: pointer;
-}
+
 
 .menu {
     padding-top: 20px;
@@ -310,6 +307,11 @@ header {
 
 }
 
+.menu-grid-btn:hover {
+    background-color: #F37335;
+    cursor: pointer;
+}
+
 .menu-grid-icon {
     background-image: url(../images/bin.svg);
     background-size: 18px 18px;
@@ -331,12 +333,12 @@ header {
     font-weight: 700;
     font-size: 20px;
     color: #979797;
+    text-align-last: center;
     margin-top: 8px;
     margin-bottom: 22px;
 }
 
 .menu-grid-text {
-    font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
