@@ -592,6 +592,12 @@ header {
     }
 }
 
+@media (min-width: 766px) {
+    .header-burger {
+        display: none;
+    }
+}
+
 @media (max-width: 1000px) {
     .container {
         max-width: 738px;
@@ -650,6 +656,12 @@ header {
 
     .footer-list+.footer-list-tel {
         display: block;
+    }
+}
+
+@media (max-width: 765px) {
+    nav {
+        display: none;
     }
 }
 
