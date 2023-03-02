@@ -654,3 +654,47 @@ header {
 }
 
 /*Modal*/
+.burger {
+    width: 34px;
+    height: 22px;
+    background-image: url(../images/burger.svg);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.modal {
+    background-color: #FFF8DC;
+    max-width: 500px;
+    text-align: center;
+    position: absolute;
+    top: -400px;
+    left: 0;
+    right: 0;
+    margin: 20px auto 0;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.modal .header-nav {
+    flex-direction: column;
+    text-align: center;
+    gap: 23px;
+    margin: 0;
+}
+
+.burger-close {
+    width: 22px;
+    height: 22px;
+    background-image: url(../images/close1.svg);
+    background-color: transparent;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
