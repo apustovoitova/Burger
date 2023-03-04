@@ -663,7 +663,54 @@ header {
     nav {
         display: none;
     }
+
+    .header {
+        gap: 21px;
+    }
 }
+
+@media (max-width: 567px) {
+
+    .breadcrumbs a {
+
+        font-size: 15px;
+    }
+
+    .title {
+
+        font-size: 38px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+}
+
+.bg {
+    padding: 55px 0;
+}
+
+.banner-box {
+    background-position: 17% center;
+    padding: 35px 24px 54px;
+}
+
+
+@media (max-width: 360px) {
+    .header-logo {
+        width: 116px;
+        height: 37px;
+        background-size: contain;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner-box {
+        background-position: 25% center;
+    }
+}
+
+
 
 /*Modal*/
 .burger {
