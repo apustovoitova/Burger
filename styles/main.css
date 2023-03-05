@@ -696,8 +696,6 @@ header {
 
 }
 
-
-
 @media (max-width: 360px) {
     .header-logo {
         width: 116px;
@@ -710,6 +708,66 @@ header {
     .banner-box {
         background-position: 25% center;
     }
+
+    .menu-header {
+        margin-bottom: 10px;
+    }
+
+    .menu-title {
+        font-size: 27px;
+    }
+
+    .menu-select {
+        font-size: 12px;
+        padding: 8px 31px 7px 15px;
+    }
+
+    .menu-grid {
+        margin: 0 auto;
+    }
+
+    .menu-grid-cover {
+        width: 140px;
+        height: 201px;
+        gap: 10px;
+    }
+
+    .menu-grid-title {
+        font-size: 13px;
+        margin-top: 7px;
+    }
+
+    .menu-grid-btn {
+        padding: 10px 21px 10px 42px;
+        font-size: 14px;
+    }
+
+    .menu-grid-price {
+        font-size: 16px;
+    }
+
+    .footer {
+        width: 318px;
+        height: 611px;
+    }
+
+    .footer-box {
+        display: block;
+        gap: 33px;
+    }
+
+    .footer-item h2 {
+        font-size: 18px;
+    }
+
+    .footer-list {
+        font-size: 15px;
+    }
+
+    .footer-list-tel a {
+        display: none;
+    }
+
 }
 
 
