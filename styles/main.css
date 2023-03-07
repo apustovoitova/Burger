@@ -244,6 +244,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 52px;
+
 }
 
 .menu-title {
@@ -274,7 +277,6 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px 20px;
-    margin: 100px;
 }
 
 .menu-grid-cover {
@@ -326,6 +328,7 @@ header {
     color: #1B2A49;
     text-align: center;
     margin: 0;
+    padding-top: 30px;
 }
 
 .menu-grid-price {
@@ -709,12 +712,10 @@ header {
         background-position: 25% center;
     }
 
-    .menu-header {
-        margin-bottom: 10px;
-    }
 
     .menu-title {
         font-size: 27px;
+
     }
 
     .menu-select {
@@ -748,7 +749,6 @@ header {
 
     .footer {
         width: 318px;
-        height: 611px;
     }
 
     .footer-box {
