@@ -712,10 +712,8 @@ header {
         background-position: 25% center;
     }
 
-
     .menu-title {
         font-size: 27px;
-
     }
 
     .menu-select {
@@ -727,11 +725,15 @@ header {
         margin: 0 auto;
     }
 
-    .menu-grid-cover {
+
+    .menu-grid-cover img {
         width: 140px;
         height: 201px;
         gap: 10px;
+        display: block;
+
     }
+
 
     .menu-grid-title {
         font-size: 13px;
