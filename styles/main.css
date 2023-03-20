@@ -234,8 +234,6 @@ header {
     color: #fbb731;
 }
 
-
-
 .menu {
     padding-top: 20px;
 }
@@ -244,9 +242,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 100px;
-    padding-bottom: 52px;
-
+    margin-top: 99px;
+    margin-bottom: 34px;
 }
 
 .menu-title {
@@ -305,7 +302,7 @@ header {
     justify-content: center;
     margin: 0 auto;
     gap: 9px;
-
+    margin-top: -15px;
 }
 
 .menu-grid-btn:hover {
@@ -629,16 +626,18 @@ header {
     .menu-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px 15px;
+
     }
 
     .menu-other {
         overflow: hidden;
-        height: 558px;
+        height: 641px;
     }
 
     .menu-other .menu-grid {
         display: flex;
         width: auto;
+        height: 424px;
         overflow-x: scroll;
         overflow-y: hidden;
         padding-bottom: 50px;
@@ -729,11 +728,13 @@ header {
     .menu-grid-cover img {
         width: 140px;
         height: 201px;
-        gap: 10px;
-        display: block;
 
     }
 
+    .menu-other .menu-grid-cover img {
+        height: 140px;
+        height: 201px;
+    }
 
     .menu-grid-title {
         font-size: 13px;
@@ -771,7 +772,6 @@ header {
     }
 
 }
-
 
 
 /*Modal*/
