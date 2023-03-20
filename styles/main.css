@@ -728,13 +728,37 @@ header {
     .menu-grid-cover img {
         width: 140px;
         height: 201px;
-
     }
 
     .menu-other .menu-grid-cover img {
-        height: 140px;
+        width: 140px;
         height: 201px;
     }
+
+
+    .menu-other {
+        overflow: hidden;
+        height: 641px;
+    }
+
+    .menu-other .menu-grid {
+        display: flex;
+        width: auto;
+        height: 424px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding-bottom: 50px;
+    }
+
+    .menu-other .menu-grid-item {
+        flex: 0 0 281px;
+    }
+
+    .menu-other .menu-grid-cover,
+    .menu-other .menu-grid-cover img {
+        height: 320px;
+    }
+
 
     .menu-grid-title {
         font-size: 13px;
@@ -748,6 +772,11 @@ header {
 
     .menu-grid-price {
         font-size: 16px;
+    }
+
+    .footer-logo {
+        margin-top: -61px;
+        margin-bottom: 48px;
     }
 
     .footer {
@@ -772,6 +801,7 @@ header {
     }
 
 }
+
 
 
 /*Modal*/
