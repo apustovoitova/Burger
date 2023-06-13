@@ -295,7 +295,7 @@ header {
 .menu-grid-btn {
     border: 0px;
     background-color: #FBB731;
-    padding: 10px 30px 10px 52px;
+    padding: 10px 30px 10px 23px;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -598,6 +598,7 @@ header {
     }
 }
 
+
 @media (max-width: 1000px) {
     .container {
         max-width: 738px;
@@ -611,6 +612,9 @@ header {
 
     .header-nav {
         gap: 22px;
+    }
+
+    .header-item {
         flex-basis: 75.5%;
     }
 
@@ -662,6 +666,8 @@ header {
 }
 
 @media (max-width: 765px) {
+
+
     nav {
         display: none;
     }
@@ -674,17 +680,15 @@ header {
 @media (max-width: 567px) {
 
     .breadcrumbs a {
-
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .title {
-
-        font-size: 38px;
+        font-size: 43px;
     }
 
     .description {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .bg {
@@ -694,8 +698,43 @@ header {
     .banner-box {
         background-position: 17% center;
         padding: 35px 24px 54px;
+        margin-bottom: 0px;
     }
 
+    .menu-title {
+        font-size: 37px;
+    }
+
+    .menu-select {
+        font-size: 20px;
+        flex-basis: 214px;
+    }
+
+    .menu-grid-cover {
+        height: 343px;
+    }
+
+    .menu-grid-title {
+        font-size: 25px;
+    }
+
+    .footer {
+        background: #1E2F40;
+        color: #fff;
+        padding-top: 91px;
+        padding-bottom: 84px;
+        margin-top: 114px;
+    }
+
+    .footer-box {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-list+.footer-list-tel {
+        display: none;
+    }
 }
 
 @media (max-width: 360px) {
@@ -707,8 +746,35 @@ header {
 }
 
 @media (max-width: 320px) {
+    .header {
+        padding-bottom: 20px;
+    }
+
+    .breadcrumbs a {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .bg {
+        margin-bottom: 30px;
+        height: 144px;
+    }
+
     .banner-box {
-        background-position: 25% center;
+        background-position: 22% center;
+        height: 243px
+    }
+
+    .menu-header {
+        margin-top: 46px;
+        margin-bottom: -40px;
     }
 
     .menu-title {
@@ -718,12 +784,23 @@ header {
     .menu-select {
         font-size: 12px;
         padding: 8px 31px 7px 15px;
+        flex-basis: 119px
     }
 
     .menu-grid {
         margin: 0 auto;
+        gap: 0px;
     }
 
+    .menu-grid-item {
+        margin-top: 0px;
+
+    }
+
+    .menu-grid-cover {
+        height: 200px;
+        margin-top: 55px;
+    }
 
     .menu-grid-cover img {
         width: 140px;
@@ -738,7 +815,7 @@ header {
 
     .menu-other {
         overflow: hidden;
-        height: 641px;
+        height: 465px;
     }
 
     .menu-other .menu-grid {
@@ -747,26 +824,27 @@ header {
         height: 424px;
         overflow-x: scroll;
         overflow-y: hidden;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
+        gap: 5px;
     }
 
     .menu-other .menu-grid-item {
-        flex: 0 0 281px;
+        flex: 0 0 137px;
     }
 
     .menu-other .menu-grid-cover,
     .menu-other .menu-grid-cover img {
-        height: 320px;
+        height: 180px;
+        margin-bottom: 0px;
     }
 
 
     .menu-grid-title {
         font-size: 13px;
-        margin-top: 7px;
+
     }
 
     .menu-grid-btn {
-        padding: 10px 21px 10px 42px;
         font-size: 14px;
     }
 
@@ -786,6 +864,7 @@ header {
     .footer-box {
         display: block;
         gap: 33px;
+
     }
 
     .footer-item h2 {
